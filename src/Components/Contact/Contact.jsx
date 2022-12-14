@@ -22,14 +22,12 @@ const Contact = () => {
       .catch((err) => console.log(err));
   };
   return (
-    <div className="lg:mt-32 m-4">
+    <div id="contact" data-aos="fade-up" className="lg:mt-32 m-4">
       <div className="">
-        <h1 className="text-gray-700 font-bold uppercase text-xl">
-          Contact Me
-        </h1>
+        <h1 className=" font-bold uppercase text-xl text-center">Contact Me</h1>
         <div className="divider"></div>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
         <div className="border-2 flex flex-col items-center	p-4 shadow-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,45 +89,48 @@ const Contact = () => {
         </div>
       </div>
       {/*  */}
-      <form onSubmit={submitHanler} className="card-body">
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Name</span>
-          </label>
-          <input
-            type="text"
-            placeholder="Name"
-            name="name"
-            className="input input-bordered"
-          />
-        </div>
 
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Email</span>
-          </label>
-          <input
-            type="text"
-            placeholder="email"
-            name="email"
-            className="input input-bordered"
-          />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Message</span>
-          </label>
-          <textarea
-            className="textarea textarea-bordered"
-            placeholder="Message"
-            name="message"
-          ></textarea>
-        </div>
+      <div className="lg:px-20 ">
+        <form onSubmit={submitHanler} className="card-body  ">
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Name</span>
+            </label>
+            <input
+              type="text"
+              placeholder="Name"
+              name="name"
+              className="input input-bordered"
+            />
+          </div>
 
-        <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
-        </div>
-      </form>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Email</span>
+            </label>
+            <input
+              type="text"
+              placeholder="email"
+              name="email"
+              className="input input-bordered"
+            />
+          </div>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Message</span>
+            </label>
+            <textarea
+              className="textarea textarea-bordered"
+              placeholder="Message"
+              name="message"
+            ></textarea>
+          </div>
+
+          <div className="form-control mt-6">
+            <button className="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
 
       {/*  */}
     </div>

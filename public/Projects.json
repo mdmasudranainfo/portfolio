@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Zindani ",
+    "title": "Old Phone Saling Website  ",
+    "live": "https://zindani-8acac.web.app/",
+    "clint": "https://github.com/mdmasudranainfo/Zindani",
+    "server": "https://github.com/mdmasudranainfo/Zindani-server",
+
+    "thum": "https://i.ibb.co/TcSrwNX/2.png",
+    "image1": "https://i.ibb.co/869Jtq8/screencapture-zindani-8acac-web-app-2022-12-11-19-07-15.png",
+    "image2": "https://i.ibb.co/SKyGqrs/Screenshot-2022-12-11-191016.png",
+    "image3": "https://i.ibb.co/2krP4y4/screencapture-zindani-8acac-web-app-dashbord-allseller-2022-12-11-19-08-58.png",
+
+    "desc1": "Users view Category wise product details and order the product . Also can report the product.",
+    "desc2": " Sellers add their products, view their products, Admin manage Users, and take action on Reported Items.",
+    "desc3": " System is Fully Responsive and Authenticated By Google Firebase Authentication.",
+    "tools": " TailwindCSS, DaisyUI, ES6, ReactJs,ExpressJs, NodeJs, MongoDB, Firebase,"
+  },
+  {
+    "id": "2",
+    "name": "Hoom Cooking ",
+    "title": "Hoom Food Saling Website  ",
+    "live": "https://home-cookin-60455.web.app/",
+    "clint": "https://github.com/mdmasudranainfo/home-cookin-clint",
+    "server": "https://github.com/mdmasudranainfo/hoom-cooking-server",
+
+    "thum": "https://i.ibb.co/T82NYmc/7922893.jpg",
+    "image1": "https://i.ibb.co/HxzbXB5/screencapture-home-cookin-60455-web-app-service-636a2a922560944aebe4953f-2022-12-11-19-05-23.png",
+    "image2": "https://i.ibb.co/jrdtpC6/screencapture-home-cookin-60455-web-app-2022-12-11-19-04-29-1.png",
+    "image3": "https://i.ibb.co/SJHwzgK/screencapture-home-cookin-60455-web-app-myreview-2022-12-11-20-34-09.png",
+
+    "desc1": "It is a homemade food selling website. Here you can login and sign in with firebase.",
+    "desc2": "If you want, you can prepare food and add service. Click on add service route.",
+    "desc3": " Also you can review each product by clicking on its details. And you can see your review.",
+    "tools": "React.js, React Router, Daisy UI, Firebase, Node js, Express js, MongoDB"
+  },
+
+  {
+    "id": "3",
+    "name": "E-LEARNING ",
+    "title": "Course Saling Website  ",
+    "live": "https://e-learning-a10.web.app/",
+    "clint": "https://github.com/mdmasudranainfo/e-learning",
+    "server": "none",
+
+    "thum": "https://i.ibb.co/vmpBt3P/4905784.jpg",
+    "image1": "https://i.ibb.co/TwbXNsf/screencapture-e-learning-a10-web-app-courses-2-2022-12-11-19-11-27.png",
+    "image2": "https://i.ibb.co/HTxKLCb/screencapture-e-learning-a10-web-app-courses-2022-12-11-19-11-13.png",
+    "image3": "https://i.ibb.co/KhHtVY3/screencapture-e-learning-a10-web-app-login-2022-12-11-19-11-46.png",
+
+    "desc1": "This web course website can log in and sign in. After logging in you can buy the course.",
+    "desc2": "After log in you can buy the course. You can do dark and light themes on this website.",
+    "desc3": " And you can click on this website details and then you can download the PDF automatically..",
+    "tools": "React.js, React Router, React-to-PDF,  Firebase, Daisy"
+  }
+]

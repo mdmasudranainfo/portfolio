@@ -4,7 +4,10 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Main from "./Components/Layout/Main";
+import MainLayout from "./Components/Layout/MainLayout";
+import Modal from "./Components/Modal/Modal";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import ProjectDit from "./Components/ProjectDit/ProjectDit";
 import Skill from "./Components/Skill/Skill";
 
 const router = createBrowserRouter([
@@ -14,30 +17,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Main />,
       },
       {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/portfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "skill",
-        element: <Skill />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
+        path: "/project/:id",
+        element: <ProjectDit></ProjectDit>,
+        loader: ({ params }) => fetch(`Projects.json/${params.id}`),
       },
     ],
   },
 ]);
 function App() {
   return (
-    <div className="font-semibold">
+    <div className="mainDiv font-semibold ">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
